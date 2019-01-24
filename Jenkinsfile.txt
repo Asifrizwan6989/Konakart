@@ -1,0 +1,15 @@
+def readpom;
+pipeline {
+    agent any
+    stages {
+	stage('ReadPom')
+	{
+	
+	readpom = readMavenPom file: '';
+	def artifactsversion = readpom.version;
+	echo "version is :- ${artifactsversion}"
+     }
+	 
+}
+    }
+	
