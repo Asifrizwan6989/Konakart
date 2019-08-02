@@ -8,7 +8,7 @@
 	<name>KonakartM Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-        <sonar.host.url>http://192.168.175.193:9000/</sonar.host.url>
+        <sonar.host.url>http://192.168.102.1:9000/</sonar.host.url>
 		
          <sonar.analysis.mode>preview</sonar.analysis.mode>
          <sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
